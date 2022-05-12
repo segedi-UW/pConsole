@@ -1,0 +1,44 @@
+,pConsole user manual version 3.6\
+7/3/2060\
+<$fgrey>**Materials are worn, some pages are missing...**<$r>\
+This manual is meant to be a ref_-nce. It wi-\
+...\
+-sers may def- their own -rogs by simpl...\
+Basic pages:<$fcyan>\
+* toc\
+* idx\
+* gls\
+<$r>
+
+loading,Loading is done by using the <$fp>load<$r> directive.\
+See '<$fp>help load<$r>' for more details.
+
+toc,Table of Contents\
+(<$fc>man<$r>)      -   Basic pages and intro\
+<$fc>toc<$r>        -   Table of Contents (here)\
+<$fc>index<$r>      -   Lookup by names\
+<$fc>glossary<$r>   -   Definitions
+
+index|idx,Index\
+loading, <$fy>load.prog<$r>, <$fy>list.prog<$r> (<$fc>loading<$r>)
+
+glossary|gls,Glossary\
+<$fg>Integer<$r> - a whole number\
+<$fg>Float<$r> - a decimal number. Floats have a smaller range than Doubles.\
+<$fg>Double<$r> - a decimal number. Has a larger range than floats.\
+<$fg>Argument<$r> - A value that is passed into a function.\
+<$fg>Parameter<$r> - A value that a function utilizes.\
+   An argument becomes a parameter.\
+<$fc>Casting\
+Signed<$r>
+
+casting|Casting,<$fg>Casting<$r> - a term for changing the type of\
+one value to another. For example, casting\
+the float 3.0 to an int gives 3. May be called\
+coercing (typically as it relates to casting\
+strings to integers or floats)
+signed|Signed,<$fg>Signed<$r> - Meaning a value can take on a negative\
+value in addition to a positive one. Signed\
+variables have the same storage space as unsigned\
+minus the most significant bit, and center\
+their range on zero

@@ -1,0 +1,4 @@
+loadAll,Loads all the java programs in a target directory.\
+The bread and butter of loading.\
+Expects: LoadAll <targetDirectory>\
+Tip: To load the current directory, use 'LoadAll .'

@@ -1,0 +1,28 @@
+help|?|h,Prints out basic built-in commands\
+help [directive]
+clear|c|cls,Clears pConsole\
+clear
+exit|e,Exits pConsole\
+exit
+prog|p,Executes a program, or prints out all\
+loaded programs when not supplied an argument.\
+Programs can be loaded in when pConsole is booted or by using the '<$fp>load<$r>' directive.\
+See '<$fc>man loading<$r>' for details on loading on start.\
+prog [program]\
+Note: After a successful use of prog, the previous program\
+is saved and can be reexecuted by simply entering '.'.\
+Other built-in commands do not reset this.
+man|m,User manual. Includes information on using pConsole.\
+man [manpage]\
+Without arguments opens the man manpage.
+cd,Changes directory relative to the base pConsole directory. Cannot go below 'pconsole/'\
+cd <relative directory>\
+Note: Use '..' for parent directory
+ls|l,Prints out the directory's directories\
+ls [directory]
+load|ld,Loads the program into the prog list.\
+load <progPath>\
+load <manPath>\
+Note: both manPath and progPath is relative and affected by the current directory.\
+The manpage for a given prog is loaded automatically. To add new keys use load with\
+the manpage file path.

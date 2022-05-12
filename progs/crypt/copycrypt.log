@@ -1,0 +1,3 @@
+Security Encryption and Decryption uses the perfectly secure one-time-pad algorithm with
+saved key. However it is not perfectly secure if an adversary has access to the key.
+<$fr>pConsole is not responsible for cryptographic breakdowns due to poor key file management.<$r>
